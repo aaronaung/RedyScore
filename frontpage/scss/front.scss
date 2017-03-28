@@ -1,0 +1,336 @@
+#about{
+	font-family: 'Ubuntu', sans-serif;
+	color: #2e244e;
+	font-size: 1.5vw;
+	letter-spacing: 1.5px;
+	line-height: 50px;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+
+#center{	
+	background-size: cover;
+	background-color: #f4f4f4;
+	padding-top: 15px;
+	padding-bottom: 1px;
+
+	.careerboost img{
+		width: 40%;
+		padding-top: 2%;
+		margin-bottom: 1%;
+	}
+
+	.head{
+		margin-top: 5%;
+		.headline{
+			font-family: 'Ubuntu', sans-serif;
+			color: #2e244e;
+			font-size: 2.8vw;
+			letter-spacing: 2px;
+			margin-top: 0;
+			margin-bottom: 0.5%;
+		}
+		.sub{
+			font-family: 'Ubuntu', sans-serif;
+			color: #2e244e;
+			font-size: 1.2vw;
+			letter-spacing: 0.5px;
+			margin-top: 0;
+		}
+	}
+
+	.loopMeIn{
+		width: 40%;
+		padding: 0;
+		.btn{
+			width: 37%;
+			margin-left: 2%;
+		}
+		input{
+			width: 60%;
+		}
+	}
+}
+
+#social{
+	ul li{
+		display: inline-block;
+		margin: 5%;
+		i{
+			font-size: 4vw;
+			color: white;
+		}
+	}
+}
+
+#homenavcollapse{
+	border: none;
+}	
+
+#navtabs{
+	padding-right: 5%;
+}
+
+#nav-container{ 
+	.navbar {
+		background-color: white;
+		border-color: transparent;
+		padding-top: 5px;
+		margin: 0;
+		.navbar-toggle{
+			&:hover{background-color: white;} 
+			&:focus{background-color: white;}
+			&:active{background-color: white;}
+		}
+		.navbar-nav{
+			li>a {
+			    color: black;
+			    font-family: 'Ubuntu', sans-serifs;
+			    font-size: 1.25em;
+			    padding: 18px 25px;
+			    font-weight: 100;
+			}
+		}
+	}
+
+	.navbar-header{
+		button{
+			border:none;
+		}
+		.navbar-toggle .icon-bar{
+			background-color: #404b54;
+		}
+	}
+
+	.navbar-brand img{
+		width: 35px;
+		margin-left: 150%;
+	}
+	
+}
+
+.nav{
+	li{
+		a{
+			&:hover {background-color: transparent !important;}
+			&:focus {
+				background-color: transparent !important;
+				color: #4e00cc	 !important;
+				text-decoration: underline !important;
+			}
+		}
+	}
+}
+
+.nav .tab4 a:focus{
+	color: white !important;
+}
+
+#circles{
+	.picture{
+		margin-top: 5%;
+		margin-bottom: 5%;
+		.circle{
+			width: 18%;
+			p{
+				margin-top: 10%;
+			}
+		}
+	}
+	.row{
+		img{
+			width: 50%;
+		}
+		p{
+			font-family: 'Ubuntu';
+		}
+	}
+}
+
+#boxes{
+	.well{
+		height: 220px;
+	}
+	#firstSection{
+		margin-bottom: 4%;
+	}
+	#secondSection{
+		.well{
+			background: #00053f;
+			height: 50%;
+			.row{
+				height: 33%;
+				img{
+					float:left;
+					width: 10%;
+					margin: 2% 7%;
+				}
+				div{
+					float:left;
+					margin-top: 3%;
+					p{font-size: 1.3vw;}
+					
+				}
+			}
+			legend{
+				font-size: 3vw;
+				border-bottom: none;
+				margin-top: 2%;
+			}
+			hr{
+				border: solid 1px white;
+				width: 85%;
+			}
+		}
+	}
+
+	#whatMatters{
+		background-color: #436abc;
+		legend{
+			border-bottom:none;
+		}
+	}
+	#whatWeDo{
+		background-color: #43bc88;
+		legend{
+			border-bottom:none;
+		}
+	}
+	legend{
+		font-family: 'Ubuntu';
+		color: white;
+		font-size: 2.0vw;
+	}
+	p{
+		font-family: 'Ubuntu';
+		color: white;
+		font-size: 1.2vw;
+		line-height: 25px;
+		text-align: left;
+	}
+}
+
+#footer{
+	padding: 3%;
+	background: #383838;
+	.container{
+		width: 60%;
+		padding-bottom: 0;
+	}
+	p{
+		font-family: 'Ubuntu';
+		font-size: 1.5vw;
+		line-height: 35px;
+		color: #f0f0f0;
+	}
+	input{
+		width: 100%;
+		margin-bottom: 1%;
+		margin-top: 3%;
+	}
+	.form-control{
+		height: 80px;
+	}
+	.btn{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#navtabs{
+		.tab4{
+			background-color: white !important;
+			a{
+				color: black !important;
+				&:focus {
+					color: #4e00cc	 !important;
+					text-decoration: underline !important;
+				}
+			}	
+		}
+	}
+}
+
+//MOBILE VERSION 
+@media screen and (max-width: 736px){
+	#center{
+		.head{
+			.headline{
+				font-size: 5.5vw;
+			}
+			hr{
+				border: black solid 1px;
+				margin-top: 2%;
+				margin-bottom: 2%;
+				width: 80%;
+			}
+			.sub{
+				width: 90%;
+				margin-left: 5%;
+				font-size: 3.4vw;
+				margin-bottom: 2%;
+			}
+		}
+		.careerboost{
+			img{
+				width:80%;
+			}
+		}
+		.loopMeIn{
+			width: 100%;
+			input{
+				width:80%;
+				margin-left: 10%;
+				text-align: center;
+				margin-top:2%;
+				margin-bottom:2%;
+			}
+			.btn{
+				width:80%;
+				margin: 0;
+			}
+		}
+	}
+
+	#circles{
+		.row{
+			p{
+				font-size: 2.7vw;
+				margin-top: 10%;
+				margin-bottom: 20%;
+			}
+		}
+	}
+
+	#boxes{
+		#whatMatters, #whatWeDo{
+			legend{
+				font-size: 5.5vw;
+			}
+			p{
+				font-size: 2.7vw;
+			}
+		}
+	}
+
+	#social{
+		li>a>i{
+			font-size: 6vw;
+		}
+	}
+
+	#footer{
+		.container{
+			width: 90%;
+			p{
+				margin-top: 5%;
+				font-size: 2.5vw;
+				line-height: 25px;
+			}
+		}
+
+		#copyright{
+			font-size: 2.2vw !important;
+		}	
+	}
+}

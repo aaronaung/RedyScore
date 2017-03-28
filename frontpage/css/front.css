@@ -1,0 +1,231 @@
+#about {
+  font-family: 'Ubuntu', sans-serif;
+  color: #2e244e;
+  font-size: 1.5vw;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  margin-top: 5%;
+  margin-bottom: 8%; }
+
+#center {
+  background-size: cover;
+  background-color: #f4f4f4;
+  padding-top: 15px;
+  padding-bottom: 1px; }
+  #center .careerboost img {
+    width: 40%;
+    padding-top: 2%;
+    margin-bottom: 1%; }
+  #center .head {
+    margin-top: 5%; }
+    #center .head .headline {
+      font-family: 'Ubuntu', sans-serif;
+      color: #2e244e;
+      font-size: 2.8vw;
+      letter-spacing: 2px;
+      margin-top: 0;
+      margin-bottom: 0.5%; }
+    #center .head .sub {
+      font-family: 'Ubuntu', sans-serif;
+      color: #2e244e;
+      font-size: 1.2vw;
+      letter-spacing: 0.5px;
+      margin-top: 0; }
+  #center .loopMeIn {
+    width: 40%;
+    padding: 0; }
+    #center .loopMeIn .btn {
+      width: 37%;
+      margin-left: 2%; }
+    #center .loopMeIn input {
+      width: 60%; }
+
+#social ul li {
+  display: inline-block;
+  margin: 5%; }
+  #social ul li i {
+    font-size: 4vw;
+    color: white; }
+
+#homenavcollapse {
+  border: none; }
+
+#navtabs {
+  padding-right: 5%; }
+
+#nav-container .navbar {
+  background-color: white;
+  border-color: transparent;
+  padding-top: 5px;
+  margin: 0; }
+  #nav-container .navbar .navbar-toggle:hover {
+    background-color: white; }
+  #nav-container .navbar .navbar-toggle:focus {
+    background-color: white; }
+  #nav-container .navbar .navbar-toggle:active {
+    background-color: white; }
+  #nav-container .navbar .navbar-nav li > a {
+    color: black;
+    font-family: 'Ubuntu', sans-serifs;
+    font-size: 1.25em;
+    padding: 18px 25px;
+    font-weight: 100; }
+
+#nav-container .navbar-header button {
+  border: none; }
+
+#nav-container .navbar-header .navbar-toggle .icon-bar {
+  background-color: #404b54; }
+
+#nav-container .navbar-brand img {
+  width: 35px;
+  margin-left: 150%; }
+
+.nav li a:hover {
+  background-color: transparent !important; }
+
+.nav li a:focus {
+  background-color: transparent !important;
+  color: #4e00cc	 !important;
+  text-decoration: underline !important; }
+
+.nav .tab4 a:focus {
+  color: white !important; }
+
+#circles .picture {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  #circles .picture .circle {
+    width: 18%; }
+    #circles .picture .circle p {
+      margin-top: 10%; }
+
+#circles .row img {
+  width: 50%; }
+
+#circles .row p {
+  font-family: 'Ubuntu'; }
+
+#boxes .well {
+  height: 220px; }
+
+#boxes #firstSection {
+  margin-bottom: 4%; }
+
+#boxes #secondSection .well {
+  background: #00053f;
+  height: 50%; }
+  #boxes #secondSection .well .row {
+    height: 33%; }
+    #boxes #secondSection .well .row img {
+      float: left;
+      width: 10%;
+      margin: 2% 7%; }
+    #boxes #secondSection .well .row div {
+      float: left;
+      margin-top: 3%; }
+      #boxes #secondSection .well .row div p {
+        font-size: 1.3vw; }
+  #boxes #secondSection .well legend {
+    font-size: 3vw;
+    border-bottom: none;
+    margin-top: 2%; }
+  #boxes #secondSection .well hr {
+    border: solid 1px white;
+    width: 85%; }
+
+#boxes #whatMatters {
+  background-color: #436abc; }
+  #boxes #whatMatters legend {
+    border-bottom: none; }
+
+#boxes #whatWeDo {
+  background-color: #43bc88; }
+  #boxes #whatWeDo legend {
+    border-bottom: none; }
+
+#boxes legend {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 2.0vw; }
+
+#boxes p {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 1.2vw;
+  line-height: 25px;
+  text-align: left; }
+
+#footer {
+  padding: 3%;
+  background: #383838; }
+  #footer .container {
+    width: 60%;
+    padding-bottom: 0; }
+  #footer p {
+    font-family: 'Ubuntu';
+    font-size: 1.5vw;
+    line-height: 35px;
+    color: #f0f0f0; }
+  #footer input {
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 3%; }
+  #footer .form-control {
+    height: 80px; }
+  #footer .btn {
+    width: 100%; }
+
+@media screen and (max-width: 768px) {
+  #navtabs .tab4 {
+    background-color: white !important; }
+    #navtabs .tab4 a {
+      color: black !important; }
+      #navtabs .tab4 a:focus {
+        color: #4e00cc	 !important;
+        text-decoration: underline !important; } }
+
+@media screen and (max-width: 736px) {
+  #center .head .headline {
+    font-size: 5.5vw; }
+  #center .head hr {
+    border: black solid 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80%; }
+  #center .head .sub {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 3.4vw;
+    margin-bottom: 2%; }
+  #center .careerboost img {
+    width: 80%; }
+  #center .loopMeIn {
+    width: 100%; }
+    #center .loopMeIn input {
+      width: 80%;
+      margin-left: 10%;
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom: 2%; }
+    #center .loopMeIn .btn {
+      width: 80%;
+      margin: 0; }
+  #circles .row p {
+    font-size: 2.7vw;
+    margin-top: 10%;
+    margin-bottom: 20%; }
+  #boxes #whatMatters legend, #boxes #whatWeDo legend {
+    font-size: 5.5vw; }
+  #boxes #whatMatters p, #boxes #whatWeDo p {
+    font-size: 2.7vw; }
+  #social li > a > i {
+    font-size: 6vw; }
+  #footer .container {
+    width: 90%; }
+    #footer .container p {
+      margin-top: 5%;
+      font-size: 2.5vw;
+      line-height: 25px; }
+  #footer #copyright {
+    font-size: 2.2vw !important; } }

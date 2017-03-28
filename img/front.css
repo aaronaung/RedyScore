@@ -1,0 +1,200 @@
+#center{	
+	background-size: cover;
+}
+
+#center img{
+	width: 62vw;
+	padding-top: 5%;
+}
+
+#center h1{
+	font-family: 'Ubuntu', sans-serif;
+	color: #2e244e;
+	font-size: 1em;
+	font-size: 2.5vw;
+	letter-spacing: 2px;
+	line-height: 4vw;
+	margin-top: 0;
+	margin-bottom: 3%;
+}
+
+#centerBtns .btn{
+	font-size: 1.5vw ;
+	width: 25%;
+}
+
+#center .video{
+	color: blue;
+}
+
+
+#center hr{
+	width: 50%;
+	background-color: black;
+	height: 1px;
+	border: none;
+	margin: 5px auto;
+}
+
+#center .navbar-brand img{
+	width: 40px;
+	margin-left: 100%;
+}
+
+#navtabs{
+	padding-right: 5%;
+}
+
+#center .navbar {
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+}
+
+#center .navbar-header button{
+	border: none;
+}
+
+#center .navbar-header .navbar-toggle .icon-bar{
+	background-color: #404b54	;
+}
+
+#homenavcollapse{
+	border: none;
+}
+		
+#center .navbar .navbar-toggle:hover, .navbar .navbar-toggle:active, .navbar .navbar-toggle:focus {
+   	background-color: transparent;
+}
+		
+
+#center .navbar .navbar-nav>li>a {
+    color: black;
+    font-family: 'Ubuntu', sans-serifs;
+    font-size: 1.25em;
+    padding: 18px 25px;
+}
+
+#center .nav>li>a:focus, #center .nav>li>a:hover{
+	color: #5257FF;
+}
+
+#center .video{
+	color: white;
+}
+
+#center .container .social ul li{
+	display: inline-block;
+	margin: 2%;
+}
+
+#center .container .social ul li i{
+	font-size: 2.5vw;
+	color: white;
+}
+
+#about{
+	border: solid 4px #c6d6ef;
+	margin-bottom: 10%;
+	padding: 4% 0%;
+}
+
+#about h1{
+	padding-top: 8%;
+	padding-bottom: 8%;
+	font-size: 4em;
+	color: #5472a3;
+	letter-spacing: 5px;
+	font-family: "Ubuntu";
+}
+
+#about h2{
+	font-size: 1.5em;
+	font-family: "Ubuntu";
+	color: #38404f;
+	text-align: left;
+	line-height: 50px;
+	letter-spacing: 2px;
+}
+
+#section1 img{
+	margin: 20%;
+	width: 30%;
+	padding: 0px;
+}
+
+#section1{
+	background: #2e244e;
+}
+
+#section1 h1, #section1 h2{
+	font-size: 3.0vw;
+}
+
+#section1 .row p{
+	padding: 20px 25px;
+}
+
+
+
+@media screen and (max-width: 745px){
+	#center img{
+		width: 90%;
+	}
+
+	#center h1{
+		font-size: 3.5vw;
+		margin-bottom: 25px;
+	}
+
+	#centerBtns .btn {
+		font-size: 2.5vw;
+		width: 40%;
+	}
+
+	#center .container .social ul li i{
+		font-size: 3.5vw;
+		color: white;
+	}
+	
+	#section1 h1, #section1 h2{
+		font-size: 4vw;
+	}
+
+	#section1 img{
+		margin: 	10%;
+		width: 20%;
+		padding: 0px;
+	}
+
+}
+
+@media screen and (max-width: 1199px){
+	#about{
+		border: none;
+	}
+
+	#about h1{
+		font-size: 4em;
+		color: #5472a3;
+		letter-spacing: 5px;
+		font-family: "Ubuntu";
+		padding: 2%;
+	}
+
+	#about h2{
+		font-size: 1.3em;
+		line-height: 40px;
+		letter-spacing: 2px;
+		margin:0% 10%;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#about h2{
+		padding-left: 7%;
+		border-left: solid 3px grey;
+	}
+}
+
